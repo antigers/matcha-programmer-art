@@ -1,0 +1,15 @@
+{
+  "pack": {
+    "min_format":88.0,
+    "max_format":100.0,
+    "description": [
+      {
+        "text": "Programmer Art textures for "
+      },
+      {
+        "text": "Matcha Flavoured",
+        "color": "#56be4e"
+      }
+    ]
+  }
+}
