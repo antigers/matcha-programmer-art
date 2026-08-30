@@ -1,0 +1,6 @@
+{
+  "water_color": "#5db7ef",
+  "attributes_modifiers": {
+    "minecraft:visual/water_fog_color": "#5db7ef"
+  }
+}
