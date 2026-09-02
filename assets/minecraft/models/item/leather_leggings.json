@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/tattered_leather_leggings"
+    "layer0": "matcha:item/tattered_leather_leggings"
   }
 }
