@@ -1,3 +1,7 @@
 {
-    "gui.recipebook.toggleRecipes.smokable": "Showing Kilnable"
+    "gui.recipebook.toggleRecipes.smokable": "Showing Kilnable",
+    "item.minecraft.leather_boots": "Tattered Leather Boots",
+    "item.minecraft.leather_chestplate": "Tattered Leather Tunic",
+    "item.minecraft.leather_helmet": "Tattered Leather Cap",
+    "item.minecraft.leather_leggings": "Tattered Leather Pants"
 }
