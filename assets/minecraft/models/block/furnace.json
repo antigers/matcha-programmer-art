@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "matcha:block/oven_top",
+    "front": "matcha:block/oven_front",
+    "side": "matcha:block/oven_side",
+    "bottom": "minecraft:block/bricks"
+  }
+}

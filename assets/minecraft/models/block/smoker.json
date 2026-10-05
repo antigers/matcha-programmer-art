@@ -2,8 +2,8 @@
   "parent": "minecraft:block/orientable_with_bottom",
   "textures": {
     "bottom": "minecraft:block/mud_bricks",
-    "front": "minecraft:block/smoker_front",
-    "side": "minecraft:block/smoker_side",
-    "top": "minecraft:block/smoker_top"
+    "front": "matcha:block/kiln_front",
+    "side": "matcha:block/kiln_side",
+    "top": "matcha:block/kiln_top"
   }
 }
