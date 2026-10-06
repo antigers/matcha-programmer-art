@@ -15,6 +15,7 @@ PATHS_TO_COPY_FROM_MATCHA = (
     'minecraft/atlases',
     'minecraft/font',
     'minecraft/lang',
+    'minecraft/particles',
     'minecraft/sounds',
     'minecraft/texts',
     'minecraft/sounds.json',
@@ -22,6 +23,12 @@ PATHS_TO_COPY_FROM_MATCHA = (
     'minecraft/textures/font',
     'minecraft/textures/gui/title',
     'minecraft/textures/misc',
+
+    # Blockstates
+    'minecraft/blockstates/bedrock_buster.json',
+    'minecraft/blockstates/petrified_oak_slab.json',
+    'minecraft/blockstates/target.json',
+    'minecraft/blockstates/warding_stone.json',
 
     # Overridden block textures
     'minecraft/textures/block/emerald_block.png',  # Block of Obol
@@ -36,6 +43,14 @@ PATHS_TO_COPY_FROM_MATCHA = (
     # Block models
     'minecraft/models/block/target.json',  # Copper Eye
     'minecraft/models/block/target_on.json',  # Copper Eye
+    'minecraft/models/block/petrified_oak_slab.json',  # Dirt Slab
+    'minecraft/models/block/petrified_oak_slab_1.json',  # Dirt Slab
+    'minecraft/models/block/petrified_oak_slab_2.json',  # Dirt Slab
+    'minecraft/models/block/petrified_oak_slab_3.json',  # Dirt Slab
+    'minecraft/models/block/petrified_oak_slab_top.json',  # Dirt Slab
+    'minecraft/models/block/petrified_oak_slab_top_1.json',  # Dirt Slab
+    'minecraft/models/block/petrified_oak_slab_top_2.json',  # Dirt Slab
+    'minecraft/models/block/petrified_oak_slab_top_3.json',  # Dirt Slab
 
     # Overridden item textures
     'minecraft/textures/item/beetroot.png',  # Tomatoes
