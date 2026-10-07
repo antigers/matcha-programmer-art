@@ -65,6 +65,11 @@ PATHS_TO_REMOVE_FROM_VANILLA_FLAVOURED = (
     'minecraft/textures/item/nether_wart.png',
     'minecraft/textures/item/puerquito.png',
     'minecraft/textures/item/tadpole_spawn_egg.png',
+    'minecraft/textures/item/shulker_shell.png',
+    'minecraft/textures/item/prismarine_crystals.png',
+    'minecraft/textures/item/phantom_membrane.png',
+    'minecraft/textures/item/heart_of_the_sea.png',
+    'minecraft/textures/item/brown_mushroom.png',
 
     # Unneeded block textures
     'minecraft/textures/block/campfire_log.png',
@@ -105,6 +110,7 @@ PATHS_TO_REMOVE_FROM_VANILLA_FLAVOURED = (
     'minecraft/textures/block/smoker_top.png',
     'minecraft/textures/block/emerald_ore.png',
     'minecraft/textures/block/emerald_ore.png.mcmeta',
+    'minecraft/textures/block/end_stone_bricks.png',
 
     'minecraft/textures/entity/equipment',
 
@@ -152,7 +158,7 @@ for path_str in JSON_PATHS_TO_MERGE:
 
 shutil.make_archive('Matcha Programmer Art', format='zip', root_dir='output')
 with zipfile.ZipFile('Matcha Programmer Art.zip', mode='a', compression=zipfile.ZIP_DEFLATED) as archive:
-    for file in ('pack.mcmeta', 'pack.png', 'LICENSE'):
+    for file in ('pack.mcmeta', 'pack.png', 'LICENSE', 'README.md'):
         archive.write(file)
 
 shutil.rmtree('output')
